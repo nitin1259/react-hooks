@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import CounterTwo from "./useReducer/complexConter/CounterTwo";
+// import CounterTwo from "./useReducer/complexConter/CounterTwo";
+import CounterThree from "./useReducer/multiReducers/CounterThree";
 // import ImageChangeOnMouseOver from "./useState-useRef-useEffect/useRef-hook/ImageChangeOnMouseOver";
 // import ImageChangeOnScroll from "./useState-useRef-useEffect/useEffects-hook/ImageChangeOnScroll";
 // import Parent from "./useContext/beforeHook/Parent";
@@ -27,8 +28,9 @@ function App() {
 
         {/* this is for useReducer hooks
         <CounterOne /> 
-        */}
         <CounterTwo />
+        */}
+        <CounterThree />
       </header>
     </div>
   );
