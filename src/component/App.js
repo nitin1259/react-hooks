@@ -3,6 +3,7 @@ import "./App.css";
 // import ImageChangeOnMouseOver from "./useState-useRef-useEffect/useRef-hook/ImageChangeOnMouseOver";
 import ImageChangeOnScroll from "./useState-useRef-useEffect/useEffects-hook/ImageChangeOnScroll";
 import Parent from "./useContext/beforeHook/Parent";
+import CounterOne from "./useReducer/baiscConter/CounterOne";
 // import InputElement from "./useState-useRef-useEffect/useState-hook/InputElement";
 
 function App() {
@@ -20,7 +21,10 @@ function App() {
         {/* this is for useEffects hook
         <ImageChangeOnScroll /> */}
 
-        <Parent />
+        {/*  this id for useContext hook
+        <Parent /> */}
+
+        <CounterOne />
       </header>
     </div>
   );
