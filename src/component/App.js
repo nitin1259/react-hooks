@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 // import ImageChangeOnMouseOver from "./useState-useRef-useEffect/useRef-hook/ImageChangeOnMouseOver";
 import ImageChangeOnScroll from "./useState-useRef-useEffect/useEffects-hook/ImageChangeOnScroll";
+import Parent from "./useContext/beforeHook/Parent";
 // import InputElement from "./useState-useRef-useEffect/useState-hook/InputElement";
 
 function App() {
@@ -16,7 +17,10 @@ function App() {
         {/* this is for useRef hook
         <ImageChangeOnMouseOver /> */}
 
-        <ImageChangeOnScroll />
+        {/* this is for useEffects hook
+        <ImageChangeOnScroll /> */}
+
+        <Parent />
       </header>
     </div>
   );
