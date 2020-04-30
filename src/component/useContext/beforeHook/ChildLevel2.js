@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { UserContext } from "./Parent";
+import { UserContext, ChannelContext } from "./Parent";
 
 class ChildLevel2 extends Component {
   render() {
@@ -7,7 +7,18 @@ class ChildLevel2 extends Component {
       <div>
         <UserContext.Consumer>
           {(user) => {
-            return <div>User context Value : {user}</div>;
+            return (
+              <ChannelContext.Consumer>
+                {(channel) => {
+                  return (
+                    <div>
+                      User context Value : {user} and channel context value:{" "}
+                      {channel}
+                    </div>
+                  );
+                }}
+              </ChannelContext.Consumer>
+            );
           }}
         </UserContext.Consumer>
       </div>
