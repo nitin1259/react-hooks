@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import Parent from "./useReducer/useReducerUseContext/Parent";
+import DataFetchingOne from "./useReducer/fetchingData/DataFetchingOne";
+// import Parent from "./useReducer/useReducerUseContext/Parent";
 // import CounterTwo from "./useReducer/complexConter/CounterTwo";
 // import CounterThree from "./useReducer/multiReducers/CounterThree";
 // import ImageChangeOnMouseOver from "./useState-useRef-useEffect/useRef-hook/ImageChangeOnMouseOver";
@@ -31,8 +32,10 @@ function App() {
         <CounterOne /> 
         <CounterTwo />
         <CounterThree />
-        */}
         <Parent />
+        */}
+
+        <DataFetchingOne />
       </header>
     </div>
   );
