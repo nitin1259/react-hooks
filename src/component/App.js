@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import DocTitleOne from "./customhooks/compnt/DocTitleOne";
+import CounterOne from "./customhooks/compnt/CounterOne";
+import CounterTwo from "./customhooks/compnt/CounterTwo";
+// import DocTitleOne from "./customhooks/compnt/DocTitleOne";
 // import ClassTimer from "./useRef/ClassTimer";
 // import HookTimer from "./useRef/HookTimer";
 // import FocusInput from "./useRef/FocusInput";
@@ -56,8 +58,12 @@ function App() {
         <HookTimer />
       */}
 
+        {/* this is for custom hooks 
         <DocTitleOne />
-        <DocTitleOne />
+        <DocTitleTwo /> */}
+
+        <CounterOne />
+        <CounterTwo />
       </header>
     </div>
   );
