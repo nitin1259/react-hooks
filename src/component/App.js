@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import CounterOne from "./customhooks/compnt/CounterOne";
 import CounterTwo from "./customhooks/compnt/CounterTwo";
+import UserForm from "./customhooks/compnt/UserForm";
 // import DocTitleOne from "./customhooks/compnt/DocTitleOne";
 // import ClassTimer from "./useRef/ClassTimer";
 // import HookTimer from "./useRef/HookTimer";
@@ -60,10 +61,12 @@ function App() {
 
         {/* this is for custom hooks 
         <DocTitleOne />
-        <DocTitleTwo /> */}
-
+        <DocTitleTwo />
         <CounterOne />
         <CounterTwo />
+        */}
+
+        <UserForm />
       </header>
     </div>
   );
