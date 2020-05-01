@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
+import ParentComponent from "./useCallBack/ParentComponent";
 // import DataFetchingOne from "./useReducer/fetchingData/DataFetchingOne";
-import DataFetchingTwo from "./useReducer/fetchingData/DataFetchingTwo";
+// import DataFetchingTwo from "./useReducer/fetchingData/DataFetchingTwo";
 // import Parent from "./useReducer/useReducerUseContext/Parent";
 // import CounterTwo from "./useReducer/complexConter/CounterTwo";
 // import CounterThree from "./useReducer/multiReducers/CounterThree";
@@ -35,9 +36,10 @@ function App() {
         <CounterThree />
         <Parent />
         <DataFetchingOne />
+        <DataFetchingTwo />
         */}
 
-        <DataFetchingTwo />
+        <ParentComponent />
       </header>
     </div>
   );
