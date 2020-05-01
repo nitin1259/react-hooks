@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
-import ClassTimer from "./useRef/ClassTimer";
-import HookTimer from "./useRef/HookTimer";
+import DocTitleOne from "./customhooks/compnt/DocTitleOne";
+// import ClassTimer from "./useRef/ClassTimer";
+// import HookTimer from "./useRef/HookTimer";
 // import FocusInput from "./useRef/FocusInput";
 // import ParentComponent from "./useCallBack/ParentComponent";
 // import Counter from "./useMemo/Counter";
@@ -50,10 +51,13 @@ function App() {
         <Counter /> */}
 
         {/* this is for useRef Hooks 
-      <FocusInput /> */}
-
-        <ClassTimer />
+      <FocusInput />
+      <ClassTimer />
         <HookTimer />
+      */}
+
+        <DocTitleOne />
+        <DocTitleOne />
       </header>
     </div>
   );
