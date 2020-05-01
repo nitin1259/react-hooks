@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import ParentComponent from "./useCallBack/ParentComponent";
+// import ParentComponent from "./useCallBack/ParentComponent";
+import Counter from "./useMemo/Counter";
 // import DataFetchingOne from "./useReducer/fetchingData/DataFetchingOne";
 // import DataFetchingTwo from "./useReducer/fetchingData/DataFetchingTwo";
 // import Parent from "./useReducer/useReducerUseContext/Parent";
@@ -39,7 +40,10 @@ function App() {
         <DataFetchingTwo />
         */}
 
-        <ParentComponent />
+        {/* this is for useCallback hooks
+        <ParentComponent /> */}
+
+        <Counter />
       </header>
     </div>
   );
