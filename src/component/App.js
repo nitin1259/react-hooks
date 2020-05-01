@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import FocusInput from "./useRef/FocusInput";
+import ClassTimer from "./useRef/ClassTimer";
+import HookTimer from "./useRef/HookTimer";
+// import FocusInput from "./useRef/FocusInput";
 // import ParentComponent from "./useCallBack/ParentComponent";
 // import Counter from "./useMemo/Counter";
 // import DataFetchingOne from "./useReducer/fetchingData/DataFetchingOne";
@@ -47,7 +49,11 @@ function App() {
         {/* this is for useMemo hook
         <Counter /> */}
 
-        <FocusInput />
+        {/* this is for useRef Hooks 
+      <FocusInput /> */}
+
+        <ClassTimer />
+        <HookTimer />
       </header>
     </div>
   );
