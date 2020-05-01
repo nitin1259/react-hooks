@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
+import FocusInput from "./useRef/FocusInput";
 // import ParentComponent from "./useCallBack/ParentComponent";
-import Counter from "./useMemo/Counter";
+// import Counter from "./useMemo/Counter";
 // import DataFetchingOne from "./useReducer/fetchingData/DataFetchingOne";
 // import DataFetchingTwo from "./useReducer/fetchingData/DataFetchingTwo";
 // import Parent from "./useReducer/useReducerUseContext/Parent";
@@ -43,7 +44,10 @@ function App() {
         {/* this is for useCallback hooks
         <ParentComponent /> */}
 
-        <Counter />
+        {/* this is for useMemo hook
+        <Counter /> */}
+
+        <FocusInput />
       </header>
     </div>
   );
