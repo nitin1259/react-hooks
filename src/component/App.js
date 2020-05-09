@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
-import CounterOne from "./customhooks/compnt/CounterOne";
-import CounterTwo from "./customhooks/compnt/CounterTwo";
-import UserForm from "./customhooks/compnt/UserForm";
+import AccordianPage from "./custom-accordin/AccordianPage";
+// import CounterOne from "./customhooks/compnt/CounterOne";
+// import CounterTwo from "./customhooks/compnt/CounterTwo";
+// import UserForm from "./customhooks/compnt/UserForm";
 // import DocTitleOne from "./customhooks/compnt/DocTitleOne";
 // import ClassTimer from "./useRef/ClassTimer";
 // import HookTimer from "./useRef/HookTimer";
@@ -64,9 +65,11 @@ function App() {
         <DocTitleTwo />
         <CounterOne />
         <CounterTwo />
+        
+        <UserForm />
         */}
 
-        <UserForm />
+        <AccordianPage />
       </header>
     </div>
   );
