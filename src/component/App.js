@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import AccordianPage from "./custom-accordin/AccordianPage";
+// import AccordianPage from "./custom-accordin/AccordianPage";
+import AutoCompletePage from "./autocomplete-component-woAPI/AutoCompletePage-wo-api";
 // import CounterOne from "./customhooks/compnt/CounterOne";
 // import CounterTwo from "./customhooks/compnt/CounterTwo";
 // import UserForm from "./customhooks/compnt/UserForm";
@@ -69,7 +70,10 @@ function App() {
         <UserForm />
         */}
 
-        <AccordianPage />
+        {/* this is for accordian
+        <AccordianPage /> */}
+
+        <AutoCompletePage />
       </header>
     </div>
   );
