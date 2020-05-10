@@ -1,5 +1,5 @@
 import React from "react";
-import AutoComplete from "./AutoComplete";
+import AutoComplete from "./AutoComplete-wo-api";
 
 function AutoCompletePage() {
   return (
